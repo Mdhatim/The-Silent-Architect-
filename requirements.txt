@@ -1,0 +1,15 @@
+gradio>=4.44.0
+transformers>=4.44.2
+torch>=2.2.0
+torchaudio>=2.2.0
+soundfile>=0.12.1
+numpy>=1.26.4
+pydantic>=2.7.4
+requests>=2.32.3
+python-dotenv>=1.0.1
+
+# Optional: faster local Whisper (recommended for CPU)
+faster-whisper>=1.0.3
+
+# Optional: local LLM via Ollama
+ollama>=0.3.3
